@@ -28,4 +28,4 @@ jobs:
           context: .
           platforms: linux/amd64,linux/arm64
           push: true
-          tags: kousyoukun/spider-base:${{ github.ref_name }}-build-${{ github.run_number }}
+          tags: kousyoukun/spider-base:${{ steps.meta.outputs.tags }}
