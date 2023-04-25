@@ -1,4 +1,4 @@
-name: Rarbg-Base-Image-Build
+name: Spider-Base-Image-Build
 
 on:
   push:
