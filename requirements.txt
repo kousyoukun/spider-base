@@ -4,5 +4,5 @@ redis==4.4.4
 requests==2.22.0
 cryptography==39.0.1
 guessit==3.4.3
-pyOpenSSL==22.0.0
+pyOpenSSL==23.1.1
 Pillow==9.3.0
