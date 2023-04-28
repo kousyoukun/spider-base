@@ -7,3 +7,4 @@ guessit==3.4.3
 pyOpenSSL==23.1.1
 Pillow==9.3.0
 selenium==3.141.0
+pytesseract==0.3.1
