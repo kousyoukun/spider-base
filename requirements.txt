@@ -1,6 +1,6 @@
 Scrapy==2.9.0
 pymysql==0.9.3
-redis==4.4.4
+redis==4.5.5
 requests==2.31.0
 cryptography==39.0.1
 guessit==3.4.3

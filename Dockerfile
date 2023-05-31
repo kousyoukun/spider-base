@@ -1,7 +1,8 @@
 FROM python:3.7-buster
 LABEL spider-base.image.author="kousyoukun"
 COPY . .
-RUN pip install -r requirements.txt \
+RUN python -m pip install --upgrade pip \
+    && pip install -r requirements.txt \
     && apt-get update \
     && apt-get -y install cron vim tesseract-ocr chromium chromium-driver curl openssh-server iproute2 \
     && ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime \
