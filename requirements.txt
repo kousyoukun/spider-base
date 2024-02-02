@@ -8,4 +8,4 @@ pyOpenSSL==23.1.1
 Pillow==9.3.0
 selenium==4.9.1
 pytesseract==0.3.1
-ddddocr==1.4.7
+ddddocr==1.4.11
