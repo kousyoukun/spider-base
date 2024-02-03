@@ -4,7 +4,7 @@ redis==4.5.5
 requests==2.31.0
 cryptography==41.0.0
 guessit==3.4.3
-pyOpenSSL==23.1.1
+pyOpenSSL==24.0.0
 Pillow==9.3.0
 selenium==4.9.1
 pytesseract==0.3.1
